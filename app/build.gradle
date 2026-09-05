@@ -20,8 +20,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.17
+        sourceCompatibility = '17'
+        targetCompatibility = '17'
     }
 
     kotlinOptions {
